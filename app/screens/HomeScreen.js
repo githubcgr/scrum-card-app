@@ -1,14 +1,22 @@
 import React, { Component } from 'react';
 import {
   View,
-  Alert
+  Alert,
+ScrollView,
+    TouchableOpacity
 } from 'react-native';
 
+import DeviceInfo from 'react-native-device-info';
+
+const uniqueId = DeviceInfo.getUniqueID();
+
+import axios from 'axios';
+
 import {
-  Container, Header, Content, Button, Text,
-  Icon
+  Button, Text, Icon
 } from "native-base";
 
+import { Container, Header, Content, Card, CardItem, Right } from 'native-base';
 
 export default class HomeScreen extends Component {
 
@@ -19,9 +27,16 @@ export default class HomeScreen extends Component {
 
   addRoom() {
     Alert.prompt('Qual o nome da sala?', null, (text) =>
-        console.log('You entered ' + text),
+        axios.post('http://localhost:3000/save-room', {
+            name: text,
+        })
+        .then(function (response) {
+            console.log(response.data);
+        })
+        .catch(function (error) {
+            console.log(error);
+        })
     );
-    console.log("aaa")
   }
 
   render() {
@@ -31,6 +46,25 @@ export default class HomeScreen extends Component {
             <Icon name='add' />
             <Text>Criar Sala</Text>
           </Button>
+          <ScrollView>
+              <Container>
+                  <Header />
+                  <Content>
+                      <Card>
+                          <TouchableOpacity onPress={alert("aaa")}>
+                              <CardItem>
+                                  <Icon active name="logo-googleplus" />
+                                  <Text>Google Plus</Text>
+                                  <Right>
+                                      <Icon name="arrow-forward" />
+                                  </Right>
+                              </CardItem>
+                          </TouchableOpacity>
+
+                      </Card>
+                  </Content>
+              </Container>
+          </ScrollView>
       </View>
     )
   }

@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8f2b4253-5864-410e-8465-c327b96812b0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/mongodb/db.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/mongodb/db.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.expo/packager-info.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/.expo/packager-info.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/screens/HomeScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/screens/HomeScreen.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,11 +27,14 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/backend/src/models" />
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php.debug" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/backend/src/models" />
+      <recent name="$PROJECT_DIR$/backend/src/controllers" />
+      <recent name="$PROJECT_DIR$/backend/src/routes" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
@@ -56,7 +62,7 @@
       <updated>1573750262495</updated>
       <workItem from="1573750263556" duration="1371000" />
       <workItem from="1573821725204" duration="397000" />
-      <workItem from="1573908914735" duration="2755000" />
+      <workItem from="1573908914735" duration="9238000" />
     </task>
     <servers />
   </component>

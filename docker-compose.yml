@@ -1,0 +1,31 @@
+version: '3.2'
+services:
+
+  mongo.dev:
+    container_name: mongo.dev
+    image: mongo:3.4
+    volumes:
+      - mongo:/data/db
+    networks:
+      - bubble
+    ports:
+      - "27017:27017"
+
+  backend.dev:
+    container_name: backend.dev
+    volumes:
+      - ./backend:/backend
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    ports:
+      - "8080:80"
+    networks:
+      - bubble
+
+networks:
+  bubble:
+    external: true
+
+volumes:
+  mongo:

@@ -17,6 +17,14 @@ module.exports = (app) => {
                 return res.status(200).json(newRoom);
             // }
         },
+        getRooms: (req, res) => {
+            Room.find().lean().exec(function (e, collection) {
+                res.json({
+                    rooms: collection
+                })
+            })
+
+        },
     }
     return controller;
 }

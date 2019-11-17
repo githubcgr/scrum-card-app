@@ -2,12 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8f2b4253-5864-410e-8465-c327b96812b0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/MyPlayground.playground/Contents.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/MyPlayground.playground/contents.xcplayground" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/MyPlayground.playground/timeline.xctimeline" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/.expo/packager-info.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/.expo/packager-info.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/screens/HomeScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/screens/HomeScreen.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/controllers/room.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/controllers/room.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/routes/room.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/routes/room.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,11 +31,13 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/backend/src/models" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php.debug" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app" />
       <recent name="$PROJECT_DIR$/backend/src/models" />
       <recent name="$PROJECT_DIR$/backend/src/controllers" />
       <recent name="$PROJECT_DIR$/backend/src/routes" />
@@ -62,7 +68,8 @@
       <updated>1573750262495</updated>
       <workItem from="1573750263556" duration="1371000" />
       <workItem from="1573821725204" duration="397000" />
-      <workItem from="1573908914735" duration="9238000" />
+      <workItem from="1573908914735" duration="9278000" />
+      <workItem from="1574002732506" duration="5425000" />
     </task>
     <servers />
   </component>
